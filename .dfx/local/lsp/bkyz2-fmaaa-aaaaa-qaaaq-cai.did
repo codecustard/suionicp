@@ -1,4 +1,0 @@
-service : {
-  sign : (vec nat8) -> (record { signature : vec nat8 });
-  suiAddress : () -> (text);
-}

@@ -1,4 +1,6 @@
 service: () -> {
+    kaspaAddress: () -> (text);
     sign: (vec nat8) -> (record {signature:vec nat8});
+    createUnsignedTransaction: () -> (text);
     suiAddress: () -> (text);
 }
